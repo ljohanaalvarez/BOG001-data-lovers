@@ -1,0 +1,407 @@
+@media (max-width:800px){   
+    .media{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }  
+
+    .buttonMenu {        
+        margin-right: 20px;
+    }
+
+    .pokemonContainer{  
+        margin-top: 380px;  
+    }
+}
+
+@media (max-width:710px){
+    .media{
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }    
+    .buttonMenu {   
+        width: 70px;
+        padding: 4px;  
+        margin-right: 10px;
+        font-size: 18px;
+    }
+    #logo{
+        width: 55%;
+        height: auto;
+    }
+    .logocontainer{
+        margin: auto;
+        text-align: center;
+    }
+
+    .inputSearch{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 10px;
+    }    
+
+    .pokemonContainer{  
+        max-width: 80%;
+        margin-top: 370px;  
+        padding-bottom: 10%;     
+    }
+        
+    .pokemonsCard{
+        max-width: 45%;
+        width: 45%;
+        height: 45%;              
+    }
+    .containerInfoCard{       
+        width:500px;
+        font-size: 14px;
+    }
+    .close{
+        left: 160px; 
+        font-size: 18px;
+    }
+    .template_nameId{
+        transform: translateY(-5px);
+    }
+    .template_image{
+        transform: translateY(-5px);
+    }
+    .template-type{
+        transform: translateY(-5px);
+    }
+    .traits{        
+        width: 130px;
+        bottom: 3px;   
+    }
+    .multipliers{
+        width: 130px;    
+    }
+    .weaknesses{
+        width: 130px; 
+        bottom: 3px;       
+    }
+    .titleEvo{
+        
+        width: 276px;
+    }
+    .evolutions{
+      
+        width: 280px;   
+    }
+}
+
+@media (max-width:547px){
+    header{
+        height: 250px;
+    }
+    .media{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .containerPokeMenu{
+        display: flex;
+        width: 170px;
+        height: 40px;   
+    }
+
+    .iconMenu {
+        display:block;
+        background: url("./images/pokeball.png");
+        background-size: cover;
+        background-position: center;
+        border: none;
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .menu {
+        display: block;
+        flex-direction: column;
+        margin-left: 5px; 
+        height: 0;
+        transition: height .3s linear;
+        overflow: hidden;
+        cursor: pointer;       
+    }
+
+    .appear {
+        height: 130px;
+    }
+
+    .buttonMenu {        
+        padding: 4px;
+        width: 70px;
+        margin-bottom: 1px;
+        font-size: 18px;
+        color:rgba(11, 26, 65, 0.91);
+        box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+        border-radius: 6px 6px 6px 6px;
+    }
+
+    .buttonMenu:hover {
+        background: #a89009;
+    }
+
+    .pokemonsCard{
+        max-width: 130%;
+        width: 130%;
+        height: 130%;              
+    }
+
+    .pokemonContainer{  
+        max-width: 50%;
+        margin-top: 300px; 
+    }
+
+    .inputSearch{
+        display: inline-block;
+    }
+    
+    .search {
+        width: 35px;
+        height: 35px;
+        margin-bottom: 0;
+    }
+
+    .input {
+        float: left;
+    }
+    footer{
+        height:70px;
+    }
+
+    .containerInfoCard{
+        display:flex;
+        align-content: center;
+        margin-top: 300px;
+        border-color: 3px blue solid;
+        width: 340px;
+        height: 510px;
+        margin-bottom: 150px;
+        font-size: 15px;
+    }
+    .close{
+        font-size: 18px;
+        left: 155px;
+    }
+
+    .template_nameId{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        font-size: 10px;
+        width: 309px;
+        height: 25px;
+    }
+
+    .template_image{
+        width: 350px;
+        height: 120px;
+    }
+    .template_imagePokemon{
+        width: 120px;
+        height: 120px;
+    }
+
+    .template-type{
+        display: flex;
+        align-items: center;
+        border: 2px solid blue;
+        background-color: #F1CE00;
+        margin-bottom: 20px;
+        width: 309px;
+        height: 25px;
+    }
+    .tempTitleType{
+        font-size: 18px;
+    }
+
+    .template_traits{ 
+        width: 312;
+        height: 108px;  
+        margin-top: 0px;
+    }
+    .multipliers{
+       width: 148px;
+       height: 75px;
+       border: 2px solid blue;
+       justify-content: space-around;
+       border-bottom: 0;
+       margin-right: 2px;
+       transform: translateY(-0.5px);
+    }
+    .traits{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 148px;
+        height: 150px;
+        border-right: 0;
+        border: 2px solid blue;
+        transform: translateX(2px);
+    }
+    .multiWeak{
+        height: 108px;
+    }
+
+    .weaknesses{
+        width: 148px;
+        height: 73px;
+        margin-top: 1px;
+        border: 2px solid blue;
+        margin-right: 2px;
+        transform: translateY(-1.5px);
+    }
+
+    .evolutions{
+        margin-top: 45px;
+        width: 305px;
+        height: 100px; 
+    }
+
+    .pre-evolution{
+        width: 160px;
+        height: 40px;
+    }
+
+    .evolution{
+        width: 160px;
+        height: 40px;
+    }
+
+    .titleEvo{
+        width: 309px;
+        height: 30px;
+        border: 2px solid blue; 
+       
+    }
+
+    .evo{
+        width: 309px;
+        border: 2px solid blue;
+        transform: translateY(-2px);
+    }
+    
+}
+
+@media (max-width:405px){
+/* PENDIENTE AJUSTE DE RESPONSIVE*/
+   .containerInfoCard{  
+        font-size:12px ;
+        width: 275px;
+        height: 460px;
+    }
+    .close{
+        left: 128px; 
+        font-size: 15px;
+    }
+    h2{
+        font-size:18px ;
+    }
+
+    .template_nameId{
+        width: 255px;
+        height: 20px;
+    }
+
+    .template_image{
+        width: 260px;
+        height: 110px;
+    }
+
+    .tempTitleType{
+        font-size: 15px;
+    }
+    .tempType{
+        font-size: 18px;
+    }
+    .template_imagePokemon{
+        width: 110px;
+        height: 110px;
+    }
+
+    .template-type{
+        align-items: center;
+        width: 255px;
+        height: 20px;
+        margin-bottom: 0;
+       
+    }
+    
+   .template_traits{
+        margin-bottom: 2px;
+        margin-top: 10px;
+        font-size: 15px;
+    } 
+    .traits{        
+        width: 108px;
+        height: 146.5px;
+        bottom: 3px;   
+    }
+    .multipliers{
+        width: 133px;
+        height: 73px;    
+    }
+    .weaknesses{
+        
+        width: 133px;
+        height: 73px;
+        font-size: 14px;  
+        bottom: 3px;  
+         
+    }
+    .evolutions{
+        width:255px;  
+        height: 80px; 
+        margin-top: 55px;  
+    }
+    .titleEvo{
+        width:255px;
+        height: 20px;
+        border: 2px solid blue; 
+    }  
+    .evo{
+        width: 255px;
+        padding-top: 5px;
+        font-size: 15px;
+    }
+    .pre-evolution{
+        width: 127.5px;
+        height: 30px;
+    }
+    .evolution{
+        width: 127.5px;
+        height: 30px;
+    }
+}
+@media (max-width:380px){
+    .socialMedia{
+        margin-left: 0;
+    }
+    .pokemonContainer{  
+        margin-top: 310px; 
+    }
+    .evo{
+        width: 255px;
+        height: 45px;
+    }
+    .traits{
+        height: 147.5px;
+
+    }
+
+    .pre-evolution{
+        width: 127.5px;
+        height: 45px;
+    }
+    .evolution{
+        width: 127.5px;
+        height: 45px;
+    }
+}
+   
