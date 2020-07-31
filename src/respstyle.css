@@ -179,17 +179,15 @@
 @media (max-width: 650px){
     .subButtonMenu{
         margin-top: 5px;
-        width: 440px;
-        height: 142px;
+        width: 150px;
+        height: 60px;
         padding-left: 10px;
-        font-size: 15px;
-    }
-    .subButtonMenu li p{
-        padding: 8px;
+        font-size: 15px;  
     }
     .subBtnMenu{
-        width: 440px;
-        height: 120px;   
+        width: 150px;
+        height: 40px; 
+        font-size: 15px;  
     }
     #subBtnTypes > li {
         margin-top: 10px;
@@ -211,16 +209,21 @@
         font-size: 15px;
     }
     .subButtonOrder{
-        width: 440px;
+        width: 150px;
         padding-left: 10px;
         font-size: 15px;
-        height: 65px;
+        height: 60px;
     }
     #subBtnOrder >li {
         margin-top: 8px;
         margin-left: 5px;
-        width:60px ;
-        height:24px ;
+        width: 60px;
+        height: 24px;
+        font-size: 15px;  
+    }
+
+    #subBtnOrder li p{
+       font-size: 15px;  
     }
     
     #subBtnOrder{

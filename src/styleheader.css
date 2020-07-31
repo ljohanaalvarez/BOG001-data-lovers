@@ -1,21 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    
-    /*scrollbar-face-color: #6685CA;
-
-    scrollbar-highlight-color: #6685CA;
-
-    scrollbar-shadow-color: #6685CA;
-
-    scrollbar-3dlight-color:#FFFFFF;
-
-    scrollbar-arrow-color:#FFFFFF;
-
-    scrollbar-track-color:#E5E5E5;*/
-
-
 }
+
 header {
     display: flex;
     flex-direction: column;
@@ -147,52 +134,41 @@ nav{
 
 .subButtonMenu{
     display: block;
-    /*display:none;*/
     list-style: none;
     background:#3d3c30e8;
     color: blanchedalmond;
-    /*opacity: 0;
-    transition: opacity 1s;*/
     margin-top: 5px;
     border-radius: 10px 10px 10px 10px;
-    width: 570px;
-    height: 128px;
+    width: 200px;
+    height: 80px;
     padding-left: 20px;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
 }
 .subButtonMenu li p{
     color: blanchedalmond;
     text-decoration: none;
 }
-/*.menu .buttonMenu:hover .subButtonMenu{
-    display: block;
-    opacity: 1;
-}*/
-/*.menu :hover .subButtonOrder{
-    display: block;
-    opacity: 1;
-}*/
 
-.subBtnMenu{
+.subBtnMenu {
     display: block;
-    width: 550px;
-    height: 145px;
+    width: 190px;
+    height: 50px;
     background: linear-gradient(180deg,
     #2C4999 0%,
     rgba(7, 14, 33, 0.91) 83.33%);
-    border-radius: 10px 10px 10px 10px;    
+    border-radius: 10px 10px 10px 10px;
+    color:#F1CE00;
+    font-size: 17px;
+    font-family: 'Patrick Hand', cursive;
 }
 .subButtonOrder{
-    /*display:none;*/
     display:block;
     list-style: none;
     background:#3d3c30e8;
     color: blanchedalmond;
-    /*opacity: 0;
-    transition: opacity 1s;*/
     margin-top: 10px;
     border-radius: 10px 10px 10px 10px;
-    width: 570px;
+    width: 200px;
     height: 80px;
     padding-left: 20px;
 }
@@ -216,20 +192,21 @@ nav{
 #subBtnOrder{
     height:50px;
 }
-/*.showOrder{
-    height:50px;
-    width: 550px;
-}*/
-/*#subBtnTypes{
-    visibility: hidden;
-    height: 0;
-}*/
-/*#subBtnWeak{
-    visibility: hidden;
-    height: 0;
-}*/
 
-#subBtnTypes > li {
+#subBtnOrder li p{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+   
+}
+
+select{
+    appearance: none;
+    cursor: pointer; 
+    
+}
+
+.btnTypes {
     text-align: center;
     text-decoration: none;
     list-style: none;
@@ -240,15 +217,16 @@ nav{
     margin-top: 14px;
     margin-left: 5px;
     width:80px ;
-    height:30px ;
-
+    height:15px ;
+    color:#F1CE00;
 }
-#subBtnTypes  li p{
+
+/*#subBtnTypes {
     color:whitesmoke; 
     width:80px ;
     height:30px ;
+}*/
 
-}
 #subBtnWeak > li {
     text-align: center;
     text-decoration: none;
@@ -261,15 +239,12 @@ nav{
     margin-left: 5px;
     width:80px ;
     height:30px ;
-
 }
+
 #subBtnWeak  li p{
     color:whitesmoke; 
 }
-/*.subButtonMenu{
-    overflow-y: scroll;
-    scrollbar-color: yellow purple;
-}*/
+
 .showSubMenu{
     display: block;
     flex-direction: column;
@@ -297,8 +272,6 @@ nav{
     list-style: none;
     background:#3d3c30e8;
     color: blanchedalmond;
-    /*opacity: 0;
-    transition: opacity 1s;*/
     margin-top: 5px;
     border-radius: 10px 10px 10px 10px;
     width: 475px;
@@ -306,15 +279,11 @@ nav{
     padding-left: 20px;
     overflow-y: scroll;
 }
+
 .appearThree{
     height: 500px;
     width: 500px;
 }
-/*.menu :hover .about{
-    display: block;
-    opacity: 1;
-}*/
-
 
 .subAbout {
     display: block;
@@ -326,6 +295,7 @@ nav{
     rgba(7, 14, 33, 0.91) 83.33%);
     border-radius: 10px 10px 10px 10px; 
 }
+
 .subAbout li p{
     text-decoration: none;
     color: blanchedalmond;
@@ -334,6 +304,7 @@ nav{
     margin-left: 10px;
     height: 160px;
 }
+
 .showContact{
     display: block;
     height: 0;
@@ -341,13 +312,12 @@ nav{
     overflow: hidden;
     cursor: pointer; 
 }
+
 .contact{
     display: block;
     list-style: none;
     background:#3d3c30e8;
     color: blanchedalmond;
-    /*opacity: 0;
-    transition: opacity 1s;*/
     margin-top: 5px;
     border-radius: 10px 10px 10px 10px;
     width: 280px;
@@ -355,19 +325,17 @@ nav{
     padding-left: 20px;
     padding-top: 20px;   
 }
+
 .appearFour{
     height:150px; 
     width: 355px;
 }
 
-/*.menu :hover .contact{
-    display: block;
-    opacity: 1;
-}*/
 .contact > li {
     height: 70px;
     width: 280px;
 }
+
 .subContact{
     display: block;
     list-style: none;
@@ -379,6 +347,7 @@ nav{
     border-radius: 10px 10px 10px 10px; 
     padding-top: 5px;
 }
+
 .subContact > li{   
     text-align: center; 
     border:1px #F1CE00 solid;
@@ -390,10 +359,10 @@ nav{
     width: 250px;
     height: 20px;
 }
+
 .subContact li p{
     list-style: none;
     text-decoration: none;
     color: blanchedalmond;
-   
 };
 

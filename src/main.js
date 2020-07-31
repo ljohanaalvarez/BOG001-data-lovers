@@ -1,7 +1,8 @@
-
+//importar la data
 import data from './data/pokemon/pokemon.js';
-import { searchPokemon, orderPokeData } from './data.js';
-//import pokemon from './data/pokemon/pokemon.js';
+//importar funciones de data.js
+import { searchPokemon, orderPokeData, filterPokeTypes, filterPokeWeakness } from './data.js';
+
 
 // Llamando elementos del DOM
 const pokeDex = data.pokemon;
@@ -10,6 +11,8 @@ const mensaje = document.querySelector("#mensaje");
 const inputSearch = document.querySelector("#inputSearch");
 const ascend = document.querySelector("#ascend");
 const descend = document.querySelector("#descend");
+const subBtnTypes = document.querySelector("#subBtnTypes");
+const subBtnWeak = document.querySelector("#subBtnWeak");
 
 // Invocando la función searchPokemon para filtrar por nombre y número
 inputSearch.addEventListener("keyup", (event) => {
@@ -41,6 +44,23 @@ descend.addEventListener("click",()=>{
     const order = orderPokeData(pokeDex, descend.dataset.value);
     printPokemons(order);  
 })
+
+//invocancion de la funcion filtrar por tipo
+subBtnTypes.addEventListener("change", ()=>{
+    const selectValue = subBtnTypes.value;
+    const filterTypes = filterPokeTypes(pokeDex, selectValue);
+    console.log(filterTypes);
+    printPokemons(filterTypes);
+})
+
+//invocación de la funcion filtrar por debilidad
+subBtnWeak.addEventListener("change", ()=>{
+    const selectValue = subBtnWeak.value;
+    const filterWeakness = filterPokeWeakness(pokeDex, selectValue);
+    console.log(filterWeakness);
+    printPokemons(filterWeakness);
+})
+
 
 //llamando y guardando la data en nodos creados(tarjeta) para interacción del DOM funcion pokemonCard
 function pokemonCard(pokemon) {
