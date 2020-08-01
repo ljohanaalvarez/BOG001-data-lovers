@@ -3,7 +3,7 @@
 // Función para filtrar la data por nombre y número (searchPoke: valor del imput)
 export const  searchPokemon = (pokemonData, searchPoke) => {
   return pokemonData.filter(pokemon => {
-    if(isNaN(searchPoke)) {
+    if(isNaN(searchPoke)) { 
       return pokemon.name.toLowerCase().includes(searchPoke.toLowerCase())
     } else {
         return pokemon.num.includes(searchPoke)
@@ -36,7 +36,7 @@ export const filterPokeTypes = (pokemonData, typeValue) => {
         arrayPokemonType.push(pokemonData[i]);
       }
     }
-  };
+  }
   return arrayPokemonType;
 }; 
 
@@ -49,7 +49,7 @@ export const filterPokeWeakness = (pokemonData, weakValue) => {
         arrayPokemonWeak.push(pokemonData[i]);
       }
     }
-  };
+  }
   return arrayPokemonWeak;
 }
 

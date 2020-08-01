@@ -6,11 +6,6 @@ const showContact = document.querySelector(".showContact");
 const buttonMenu = document.querySelector(".buttonMenu");
 const buttonAbout = document.querySelector("#buttonAbout");
 const buttonContact = document.querySelector("#buttonContact");
-const subButtonOrder = document.querySelector("#subButtonOrder");
-const subBtnOrder = document.querySelector("#subBtnOrder");
-const subButtonType = document.querySelector("#subButtonType");
-const subButtonWeaknesses = document.querySelector("#subButtonWeaknesses");
-const containerSubMenu = document.querySelector("#containerSubMenu");
 
 buttonPokeMenu.addEventListener("click", showMenu);
 
