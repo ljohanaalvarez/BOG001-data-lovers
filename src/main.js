@@ -49,7 +49,6 @@ descend.addEventListener("click",()=>{
 subBtnTypes.addEventListener("change", ()=>{
     const selectValue = subBtnTypes.value;
     const filterTypes = filterPokeTypes(pokeDex, selectValue);
-    console.log(filterTypes);
     printPokemons(filterTypes);
 })
 
@@ -57,7 +56,6 @@ subBtnTypes.addEventListener("change", ()=>{
 subBtnWeak.addEventListener("change", ()=>{
     const selectValue = subBtnWeak.value;
     const filterWeakness = filterPokeWeakness(pokeDex, selectValue);
-    console.log(filterWeakness);
     printPokemons(filterWeakness);
 })
 
@@ -104,7 +102,6 @@ function pokemonInfo (pokemon) {
     const infoCard = document.querySelector("#infoCard"); 
     let evolution;
     let preEvolution;
-    console.log(pokemon);
         
     // Implementación del método array.map para invocar y guardar  las evoluciones en la data
     if (pokemon.next_evolution) {
