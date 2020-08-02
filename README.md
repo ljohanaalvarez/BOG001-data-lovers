@@ -4,22 +4,13 @@
 
 ## Índice
 
-1. Definición del producto
+1. Descripción del proyecto
 2. Investigación UX
-3. Historia de usuarios
-4. Prototipos
-5. Diseño final
-6. Test de usabilidad
-7. Objetivos de aprendizaje
-8. Checklist
-
-* [1. Descripción del proyecto](#1-Descripción del proyecto)
-* [2. Investigación UX](#2-Investigación UX)
-* [3. Historias de Usuarios](#3-Historias de Usuarios)
-* [4. Prototipos de baja y Alta fidelidad (Responsive)](#4-Prototipos de baja y Alta fidelidad (Responsive))
-* [5. Testeos de usabilidad](#5-Testeos de usabilidad)
-* [6. Objetivos de aprendizaje](#6-objetivos-de-aprendizaje)
-* [7. Checklist](#7-checklist)
+3. Historias de Usuarios
+4. Prototipos de baja y Alta fidelidad (Responsive)
+5. Testeos de usabilidad
+6. Objetivos de aprendizaje
+7. Checklist
 
 ***
 
