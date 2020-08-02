@@ -1,22 +1,29 @@
 <p align="center"> <img src="https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/pokemonLogo.png" width="350"> </p>
 
-# Data Lovers
+# PokemonDeta (Proyecto - Data Lovers)
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Checklist](#9-checklist)
+1. Definición del producto
+2. Investigación UX
+3. Historia de usuarios
+4. Prototipos
+5. Diseño final
+6. Test de usabilidad
+7. Objetivos de aprendizaje
+8. Checklist
+
+* [1. Descripción del proyecto](#1-Descripción del proyecto)
+* [2. Investigación UX](#2-Investigación UX)
+* [3. Historias de Usuarios](#3-Historias de Usuarios)
+* [4. Prototipos de baja y Alta fidelidad (Responsive)](#4-Prototipos de baja y Alta fidelidad (Responsive))
+* [5. Testeos de usabilidad](#5-Testeos de usabilidad)
+* [6. Objetivos de aprendizaje](#6-objetivos-de-aprendizaje)
+* [7. Checklist](#7-checklist)
 
 ***
 
-## 1. Preámbulo
+## 1. Descripción del proyecto
 
 Según [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
 el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
