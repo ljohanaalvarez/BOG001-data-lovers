@@ -11,7 +11,7 @@
     } 
     
     #logo{
-        width:260.5px ;
+        width:250px ;
         height: 110px;
     }
     .inputSearch{
@@ -34,6 +34,7 @@
         margin-right: 20px;
     }
 }
+
 @media(max-width:755px){
     .containerPokeMenu{
         margin-left: 5px;
@@ -47,6 +48,7 @@
         height: 35px;
         margin-right: 10px;
     }  
+
     .containerPokeMenu{
         width: 300px;
     }
@@ -59,8 +61,8 @@
     }
 
     #logo{
-        width: 90%;
-        height: auto;
+        width: 230px ;
+        height: 99px;
     }
 
     .logocontainer{
@@ -73,35 +75,41 @@
         text-align: center;
         margin-bottom: 10px;
     } 
+
     .about {
         width: 364px;
         height: 170px;
         font-size: 17px;
     }
+
     .subAbout {
         width: 364px;
         height: 146px;
     }
+
     .subAbout li p{
         margin-top: 5px;
         margin-left: 5px;
     }   
+
     .contact{
         width: 224px;
         height: 68px;
         font-size: 17px; 
     }
+
     .contact > li {
         height: 60px;
         width: 224px;
     }
+
     .subContact{
         width: 224px;
         height: 68px;
         padding-top: 1px;
     }
-    .subContact > li{  
 
+    .subContact > li{  
         width: 200px;
         height: 15px;
         margin-left: 11px;
@@ -171,6 +179,7 @@
         width: 280px;   
     }
 }
+
 @media (max-width: 650px){
     .subButtonMenu{
         margin-top: 5px;
@@ -179,11 +188,13 @@
         padding-left: 10px;
         font-size: 15px;  
     }
+
     .subBtnMenu{
         width: 150px;
         height: 40px; 
         font-size: 15px;  
     }
+
     #subBtnTypes > li {
         margin-top: 10px;
         margin-left: 5px;
@@ -191,11 +202,13 @@
         height: 24px;
         font-size: 15px;
     }
+
     #subBtnTypes  li p{
         width:  60px;
         height: 24px;
 
     }
+
     #subBtnWeak > li {
         margin-top: 10px;
         margin-left: 5px;
@@ -203,12 +216,14 @@
         height: 24px;
         font-size: 15px;
     }
+
     .subButtonOrder{
         width: 150px;
         padding-left: 10px;
         font-size: 15px;
         height: 60px;
     }
+
     #subBtnOrder >li {
         margin-top: 8px;
         margin-left: 5px;
@@ -225,13 +240,14 @@
         height: 40px;
     }
 }
+
 @media (max-width:547px){
     header{
         height: 250px;
     }
     #logo{
-        width: 70%;
-        height: auto;
+        width:210px ;
+        height: 90px;
     }
 
     .media{
@@ -290,19 +306,20 @@
 
     .subButtonMenu{
         margin-top: 5px;
-        width: 350px;
-        height: 110px;
+        width: 120px;
+        height: 55px;
         padding-left: 5px;
         font-size: 13px;
     }
     .subButtonMenu li p{
-        padding: 6px;
+        padding: 3px;
     }
 
     .subBtnMenu{
-        width: 350px;
-        height: 90px;   
+        width: 120px;
+        height: 30px;   
     }
+
     #subBtnTypes > li {
         margin-top: 5px;
         margin-left: 2px;
@@ -310,10 +327,12 @@
         height: 20px;
         font-size: 13px;
     }
+
     #subBtnTypes  li p{
         width:  50px;
         height: 20px;
     }
+
     #subBtnWeak > li {
         margin-top: 5px;
         margin-left: 2px;
@@ -321,33 +340,43 @@
         height: 20px;
         font-size: 13px;
     }
+
     .subButtonOrder{
-        width: 350px;
-        padding-left: 5px;
+        width: 120px;
+        padding-left: 6px;
         font-size: 13px;
-        height: 53px;
+        height: 55px;
     }
+
     #subBtnOrder >li {
         margin-top: 6px;
         margin-left: 2px;
-        width: 50px ;
-        height: 20px ;
+        width: 50px;
+        height: 20px;
     }
+
     .subButtonOrder li p{
-        padding: 6px;
+        padding: 0px;
     }
+
     #subBtnOrder{
         height: 35px;
     }
-    .about {
-        width: 300px;
-        height: 130px;
+
+    #subBtnOrder li p{
         font-size: 13px;
     }
-    .subAbout {
-        width: 300px;
-        height: 110px;
+    .about {
+        width: 200px;
+        height: 100px;
+        font-size: 13px;
     }
+
+    .subAbout {
+        width: 200px;
+        height: 150px;
+    }
+
     .contact{
         width: 200px;
         height: 68px;
@@ -358,6 +387,7 @@
         height: 68px;
         padding-top: 1px;
     }
+
     .subContact > li{  
         width: 180px;
         height: 15px;
@@ -524,8 +554,8 @@
 
 @media (max-width:445px){
     .subButtonMenu{
-        width: 285px;
-        height: 95px;
+        width: 100px;
+        height: 50px;
         font-size: 12px;
     }
     .subButtonMenu li p{
@@ -533,8 +563,8 @@
     }
 
     .subBtnMenu{
-        width: 285px;
-        height: 80px;   
+        width: 100px;
+        height: 28px;   
     }
     #subBtnTypes > li {
         margin-top: 5px;
@@ -555,7 +585,7 @@
         font-size: 12px;
     }
     .subButtonOrder{
-        width: 285px;
+        width: 100px;
         font-size: 12px;
         height: 48px;
     }
@@ -566,9 +596,7 @@
         height: 18px;
         font-size: 12px;
     }
-    .subButtonOrder li p{
-        padding: 4px;
-    }
+   
     #subBtnOrder{
         height: 30px;
     }

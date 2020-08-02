@@ -1,3 +1,5 @@
+<p align="center"> <img src="https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/pokemonLogo.png" width="350"> </p>
+
 # Data Lovers
 
 ## Índice
