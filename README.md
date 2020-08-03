@@ -17,6 +17,8 @@
 ## 1. Descripción del proyecto
 
 PokémonDeta (Pokémon: Monstruos de bolsillo, Deta: Datos), es una app que permite al usuario consultar información acerca de los pokemones y facilitar su experiencia en el juego de PokémonGo.
+Nuestros principales usuarios serán los jugadores de pokémon Go y todas las personas interesadas en conocer más acerca de los pokemones. 
+Siempre que lo deseen podrán acceder de manera eficiente a la información de los pokémones que sean de su interés.
 
 * Buscar sus pokemones por nombre o por número.
 * Filtar sus pokemones por tipo y debilidad.
@@ -30,52 +32,36 @@ PokémonDeta (Pokémon: Monstruos de bolsillo, Deta: Datos), es una app que perm
 Dentro de la investigación UX realizada a los usuarios del juego PokémonGo se identificaron varios hallazgos:
 
 * Los Pokémon tienen características únicas que determinan las decisiones que toma el usuario (tipo, debilidad, peso, multiplicador, etc.)
-
 * Un maestro Pokémon antes de salir a casar los Pokémon tienen que: saber el top 10 de frecuencia de aparición de los Pokémon.
-
 * Los Pokémon tienen distintos tipos y debilidades de combate. Estas características son importantes cuando un maestro Pokémon elige al Pokémon más adecuado para su batalla. Hay veces que tiene que elegir a los que tienen menos cantidad de debilidades y saber de que tipo son. Por ello, es importante para un maestro Pokémon poder ordenarlos por estas 2 características.
-
 * Los Pokémon evolucionan y es importante para un maestro Pokémon saber cuántas y cuáles son las evoluciones que tienen antes y después.
-
 * Los Pokémon se alimentan de caramelos y un maestro Pokémon necesita saber cuántos caramelos necesita un Pokémon para evolucionar.
 
 
 Partiendo de lo anterior trabajamos las siguientes historias de usuario:
 
 * H1: Yo como jugador de Pokémon quisiera ver el listado de todos los Pokémon con sus características para conocer nuevos pokemones.
-
 * H2: Yo como jugador Pokémon necesito conocer cuántas y cuáles son las evoluciones que tiene cada pokémon antes y después para saber que tanto puede evolucionar y qué tan fuerte puede llegar a ser.
-
 * H3: Yo como jugador pokémon quisiera poder filtrar los pokemones por nombre o número para encontrar rápido el pokémon que busco en específico.
-
 * H4: Yo como jugador de Pokémon quiero poder filtrar por tipo para saber cuál elegir en cada batalla.
-
 * H5: Yo como jugador de Pokémon quiero filtrar por debilidad de combate para saber cuál elegir en mi batalla.
 
 
 Criterios de aceptación:
 
 * Que sea responsive.
-
 * Que tenga nombre del pokémon, imágen y que su número asignado se visualice en la interfaz.
-
 * En sus características incluir tipo, multiplicador, debilidades, evoluciones anteriores y posteriores, caramelos y cantidad necesarios para evolucionar.
-
 * Que permita filtrar y ordenar la data.
 
 
 Definición de Terminado:
 
 * Pair programming.
-
 * Test de usabilidad con 3 usuarios, incorporando las mejoras que se identifican con la iteración del test.
-
 * Feedback con coaches.
-
 * Manejo del código usando git y git hub.
-
 * Realizar repositorio y git hub pages.
-
 * Test Unitarios, verificar si las funciones pasan dichos test.
 
 
