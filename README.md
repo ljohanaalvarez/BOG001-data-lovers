@@ -97,7 +97,14 @@ Visualizacion tamaño Móvil
 
 Finalizando este proceso, desarrollamos nuestro prototipo de alta fidelidad para dar incio con la maquetación del proyecto.
 
+Prototipo de alta fidelidad
 <p align="center"> <img src= "" width="350"> </p>
+
+Paleta de colores
+<p align="center"> <img src= "" width="350"> </p>
+
+Para el desarrollo de este prototipo tuvimos encuenta una paleta de colores frios Vs calidos para generar contraste con los tonos frios, acento con los tonos calidos e implementación de tonos neutros. Teniendo en cuenta la jerarquía del mensaje y el contenido en general.
+
 
 Link: 
 
