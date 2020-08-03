@@ -17,6 +17,7 @@
 ## 1. Descripción del proyecto
 
 PokémonDeta (Pokémon: Monstruos de bolsillo, Deta: Datos), es una app que permite al usuario consultar información acerca de los pokemones y facilitar su experiencia en el juego de PokémonGo.
+
 Nuestros principales usuarios serán los jugadores de pokémon Go y todas las personas interesadas en conocer más acerca de los pokemones. 
 Siempre que lo deseen podrán acceder de manera eficiente a la información de los pokémones que sean de su interés.
 
