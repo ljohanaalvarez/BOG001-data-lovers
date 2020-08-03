@@ -39,6 +39,7 @@ Dentro de la investigación UX realizada a los usuarios del juego PokémonGo se 
 
 * Los Pokémon se alimentan de caramelos y un maestro Pokémon necesita saber cuántos caramelos necesita un Pokémon para evolucionar.
 
+
 Partiendo de lo anterior trabajamos las siguientes historias de usuario:
 
 * H1: Yo como jugador de Pokémon quisiera ver el listado de todos los Pokémon con sus características para conocer nuevos pokemones.
@@ -50,6 +51,33 @@ Partiendo de lo anterior trabajamos las siguientes historias de usuario:
 * H4: Yo como jugador de Pokémon quiero poder filtrar por tipo para saber cuál elegir en cada batalla.
 
 * H5: Yo como jugador de Pokémon quiero filtrar por debilidad de combate para saber cuál elegir en mi batalla.
+
+
+Criterios de aceptación:
+
+* Que sea responsive.
+
+* Que tenga nombre del pokémon, imágen y que su número asignado que se visualice en la interfaz.
+
+* En sus características incluir tipo, multiplicador, debilidades, evoluciones anteriores y posteriores, caramelos y cantidad necesarios para evolucionar.
+
+* Que permita filtrar y ordenar la data.
+
+
+Definición de Terminado:
+
+* Pair programming.
+
+* Test de usabilidad con 3 usuarios, incorporando las mejoras que se identifican con la iteración del test.
+
+* Feedback con coaches.
+
+* Manejo del código usando git y git hub.
+
+* Realizar repositorio y git hub pages.
+
+* Test Unitarios, verificar si las funciones pasan dichos test.
+
 
 ## 3. Prototipos de baja y Alta fidelidad (Responsive)
 
