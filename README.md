@@ -101,7 +101,7 @@ Prototipo de alta fidelidad
 <p align="center"> <img src= "" width="350"> </p>
 
 Paleta de colores
-<p align="center"> <img src= "" width="350"> </p>
+<p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/palette%20color.jpg" height="100" width="500"> </p>
 
 Para el desarrollo de este prototipo tuvimos encuenta una paleta de colores frios Vs calidos para generar contraste con los tonos frios, acento con los tonos calidos e implementación de tonos neutros. Teniendo en cuenta la jerarquía del mensaje y el contenido en general.
 
