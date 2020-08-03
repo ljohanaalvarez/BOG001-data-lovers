@@ -90,7 +90,7 @@ Prototipo de alta fidelidad para tablet
 <p align="center"> <img src= "" height="450 width="650"> </p>
 Prototipo de alta fidelidad para móvil
 <p align="center"> <img src= "" height="450 width="650"> </p>
-Link:
+Link: https://www.figma.com/file/RPnK1MIEGEeDAzqmlegFs7/Pokemon-Deta?node-id=0%3A1
 
 Paleta de colores
 <p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/palette%20color.jpg" height="100" width="500"> </p>
