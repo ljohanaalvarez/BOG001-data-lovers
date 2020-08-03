@@ -57,7 +57,7 @@ Criterios de aceptación:
 
 * Que sea responsive.
 
-* Que tenga nombre del pokémon, imágen y que su número asignado que se visualice en la interfaz.
+* Que tenga nombre del pokémon, imágen y que su número asignado se visualice en la interfaz.
 
 * En sus características incluir tipo, multiplicador, debilidades, evoluciones anteriores y posteriores, caramelos y cantidad necesarios para evolucionar.
 
