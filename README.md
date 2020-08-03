@@ -23,7 +23,7 @@ Siempre que lo deseen podrán acceder de manera eficiente a la información de l
 
 * Buscar sus pokemones por nombre o por número.
 * Filtar sus pokemones por tipo y debilidad.
-* Ordernarlos de manera ascendente y desendente por número.
+* Ordernarlos de manera ascendente y descendente por número.
 * Al seleccionar un pokémon puede ver las caracteristicas, evoluciones y demás información correspondiente al mismo.
 * Conocer de la historia pokémon.
 
