@@ -23,7 +23,7 @@ Siempre que lo deseen podrán acceder de manera eficiente a la información de l
 
 * Buscar sus pokemones por nombre o por número.
 * Filtar sus pokemones por tipo y debilidad.
-* Ordernarlos de manera ascendente y desendente por número.
+* Ordernarlos de manera ascendente y descendente por número.
 * Al seleccionar un pokémon puede ver las caracteristicas, evoluciones y demás información correspondiente al mismo.
 * Conocer de la historia pokémon.
 
@@ -42,7 +42,7 @@ Dentro de la investigación UX realizada a los usuarios del juego PokémonGo se 
 Partiendo de lo anterior trabajamos las siguientes historias de usuario:
 
 * H1: Yo como jugador de Pokémon quisiera ver el listado de todos los Pokémon con sus características para conocer nuevos pokemones.
-* H2: Yo como jugador Pokémon necesito conocer cuántas y cuáles son las evoluciones que tiene cada pokémon antes y después para saber que tanto puede evolucionar y qué tan fuerte puede llegar a ser.
+* H2: Yo como jugador Pokémon necesito conocer cuántas y cuáles son las evoluciones que tiene cada pokémon antes y después para saber que tanto puede evolucionar y qué tan         fuerte puede llegar a ser.
 * H3: Yo como jugador pokémon quisiera poder filtrar los pokemones por nombre o número para encontrar rápido el pokémon que busco en específico.
 * H4: Yo como jugador de Pokémon quiero poder filtrar por tipo para saber cuál elegir en cada batalla.
 * H5: Yo como jugador de Pokémon quiero filtrar por debilidad de combate para saber cuál elegir en mi batalla.
