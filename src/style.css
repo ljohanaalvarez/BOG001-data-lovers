@@ -132,6 +132,7 @@ footer{
     flex-direction: column;
     background-color: cornsilk;
     font-size: 16.5px;
+    margin-bottom: 800px;
 }
 
 .close{
