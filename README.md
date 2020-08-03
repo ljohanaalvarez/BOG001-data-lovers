@@ -59,6 +59,7 @@ Posterior a la investigación UX y nuestras historias de usuario, construimos lo
 <p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/Visual%202%20desktop.jpeg"  height="450" width="300"> </p>
 Visualizacion tamaño escritorio
 
+
 <p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/prototype%20movil%20v1.1.jpg"  height="450" width="950"> </p>
 Visualizacion tamaño móvil
 
