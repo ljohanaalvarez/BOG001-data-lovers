@@ -84,16 +84,18 @@ Visualizacion tamaño Móvil
 
 Finalizando este proceso, desarrollamos nuestro prototipo de alta fidelidad para dar incio con la maquetación del proyecto.
 
-Prototipo de alta fidelidad
-<p align="center"> <img src= "" width="350"> </p>
+Prototipo de alta fidelidad para escritorio
+<p align="center"> <img src= "" height="450 width="650"> </p>
+Prototipo de alta fidelidad para tablet
+<p align="center"> <img src= "" height="450 width="650"> </p>
+Prototipo de alta fidelidad para móvil
+<p align="center"> <img src= "" height="450 width="650"> </p>
+Link:
 
 Paleta de colores
 <p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/palette%20color.jpg" height="100" width="500"> </p>
 
-Para el desarrollo de este prototipo tuvimos encuenta una paleta de colores frios Vs calidos para generar contraste con los tonos frios, acento con los tonos calidos e implementación de tonos neutros para dar balance. Teniendo en cuenta la jerarquía del mensaje y el contenido en general.
-
-
-Link: 
+Para el desarrollo de este prototipo tuvimos encuenta una paleta de colores frios Vs calidos para generar contraste con los tonos frios, acento con los tonos calidos e implementación de tonos neutros para dar balance. Teniendo en cuenta la jerarquía del mensaje y el contenido en general. 
 
 
 ## 4. Testeos de usabilidad
