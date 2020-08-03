@@ -56,14 +56,15 @@ Partiendo de lo anterior trabajamos las siguientes historias de usuario:
 Posterior a la investigación UX y nuestras historias de usuario, construimos los prototipos de baja fidelidad para poder ralizar las primeras iteraciones con usuarios y poder ajustar el diseño de la app.
 
 Visualizacion tamaño Escritotio
-<p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/Visual%20Desktop%20v1.jpeg"  height="400" width="800"> </p>
+<p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/Visual%20Desktop%20v1.jpeg"  height="400" width="1000"> </p>
 
 Visualizacion tamaño Móvil
 <p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/prototype%20movil%20v1.1.jpg"  height="450" width="950"> </p>
 
 Luego de estas iteraciones resivimos feedback para ajustar algunas de las opciones de busqueda y de la visual que tendria el usuario.
 
-<p align="center"> <img src= "" width="350"> </p>
+Visualizacion tamaño Móvil
+<p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/prototype%20movil%20v1.2.jpg" height="450" width="950"> </p>
 
 
 Finalizando este proceso, desarrollamos nuestro prototipo de alta fidelidad para dar incio con la maquetación del proyecto.
