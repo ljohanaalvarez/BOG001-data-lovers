@@ -85,11 +85,11 @@ Visualizacion tamaño Móvil ajustada
 Finalizando este proceso, desarrollamos nuestro prototipo de alta fidelidad para dar incio con la maquetación del proyecto.
 
 Prototipo de alta fidelidad para escritorio
-<p align="center"> <img src= "" height="450 width="650"> </p>
+<p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/prototype%20figma%20escritorio.jpg" height="450 width="650"> </p>
 Prototipo de alta fidelidad para tablet
 <p align="center"> <img src= "" height="450 width="650"> </p>
 Prototipo de alta fidelidad para móvil
-<p align="center"> <img src= "" height="450 width="650"> </p>
+<p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/prototype%20figma%20movil.jpg" height="450 width="650"> </p>
 Link: https://www.figma.com/file/RPnK1MIEGEeDAzqmlegFs7/Pokemon-Deta?node-id=0%3A1
 
 Paleta de colores
