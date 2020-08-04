@@ -84,17 +84,16 @@ Visualizacion tamaño Móvil ajustada
 
 Finalizando este proceso, desarrollamos nuestro prototipo de alta fidelidad para dar incio con la maquetación del proyecto.
 
-Prototipo de alta fidelidad para escritorio
+Prototipo de alta fidelidad para escritorio.
 <p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/prototype%20figma%20escritorio.jpg" height="250 width="750"> </p>
-Prototipo de alta fidelidad para tablet
+Prototipo de alta fidelidad para tablet.
 <p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/prototype%20figma%20tablet.jpg" height="350 width="550"> </p>
-Prototipo de alta fidelidad para móvil
+Prototipo de alta fidelidad para móvil.
 <p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/prototype%20figma%20movil.jpg" height="300 width="400"> </p>
 Link: https://www.figma.com/file/RPnK1MIEGEeDAzqmlegFs7/Pokemon-Deta?node-id=0%3A1
 
-Paleta de colores
+Paleta de colores.
 <p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/palette%20color.jpg"> </p>
-
 Para el desarrollo de este prototipo tuvimos encuenta una paleta de colores frios Vs calidos para generar contraste con los tonos frios, acento con los tonos calidos e implementación de tonos neutros para dar balance. Teniendo en cuenta la jerarquía del mensaje y el contenido en general. 
 
 
