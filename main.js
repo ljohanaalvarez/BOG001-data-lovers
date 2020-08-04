@@ -1,53 +1,86 @@
-import { filterByType } from './data.js';
+//importar la data
 import data from './data/pokemon/pokemon.js';
-// import data from './data/;
+//importar funciones de data.js
+import { searchPokemon, orderPokeData, filterPokeTypes, filterPokeWeakness } from './data.js';
 
+
+//Llamando elementos del DOM
 const pokeDex = data.pokemon;
 const root = document.querySelector("#root");
-const containerInfoCard = document.querySelector(".containerInfocard");
-const menu = document.querySelector("#menu");
-const buttonPokeMenu = document.querySelector("#buttonPokeMenu");
-const close = document.querySelector("#closed");
+const mensaje = document.querySelector("#mensaje");
+const inputSearch = document.querySelector("#inputSearch");
+const ascend = document.querySelector("#ascend");
+const descend = document.querySelector("#descend");
+const subBtnTypes = document.querySelector("#subBtnTypes");
+const subBtnWeak = document.querySelector("#subBtnWeak");
 
-/*if(close)
-{close.addEventListener("click", closeTemplate)};
+//Invocando la función searchPokemon para filtrar por nombre y número
+inputSearch.addEventListener("keyup", (event) => {
+    const inputValue = event.target.value;
+    const searchPokeInfo = searchPokemon(pokeDex, inputValue)
 
-function closeTemplate(){
+    if(searchPokeInfo.length === 0){
+    mensaje.innerHTML= "Check and try again";
+    } else{
+    printPokemons(searchPokeInfo);
+    mensaje.innerHTML = "";
+    }
+});
 
-   if(containerInfoCard) {containerInfoCard.style.display = 'none';
-    root.style.display = 'block';}
-    console.log(containerInfoCard);
-};*/
+//Función que imprime todas las tarjetas en la interfaz
+function printPokemons (pokemonGroup) {
+    root.innerHTML = ""
+    pokemonGroup.forEach(pokemon => {
+        root.appendChild(pokemonCard(pokemon));
+    });
+}
 
-buttonPokeMenu.addEventListener("click", showMenu);
+//Invocación de la función orderPokeData 
+ascend.addEventListener("click",()=>{ 
+    const order = orderPokeData(pokeDex,ascend.dataset.value);
+    printPokemons(order);  
+})
 
-function showMenu(){
-    menu.classList.toggle("appear");
-};
+descend.addEventListener("click",()=>{
+    const order = orderPokeData(pokeDex, descend.dataset.value);
+    printPokemons(order);  
+})
 
+//Invocancion de la funcion filtrar por tipo
+subBtnTypes.addEventListener("change", ()=>{
+    const selectValue = subBtnTypes.value;
+    const filterTypes = filterPokeTypes(pokeDex, selectValue);
+    printPokemons(filterTypes);
+})
 
+//Invocación de la funcion filtrar por debilidad
+subBtnWeak.addEventListener("change", ()=>{
+    const selectValue = subBtnWeak.value;
+    const filterWeakness = filterPokeWeakness(pokeDex, selectValue);
+    printPokemons(filterWeakness);
+})
+
+//llamando y guardando la data en nodos creados (tarjeta) para interacción del DOM función pokemonCard
 function pokemonCard(pokemon) {
-    let container = document.createElement("div");
-    let pokemonNameCont = document.createElement("div");
-    let pokemonTypeCount = document.createElement("div");
+    const container = document.createElement("div");
+    const pokemonNameCont = document.createElement("div");
+    const pokemonTypeCount = document.createElement("div");
     
-
-    let titleCard = document.createElement("h2");
+    const titleCard = document.createElement("h2");
     titleCard.innerHTML=`${pokemon.name}`;
     pokemonNameCont.appendChild(titleCard);
     container.appendChild(pokemonNameCont);
 
-
-    let number = document.createElement("p");
+    const number = document.createElement("p");
     number.innerHTML =`${pokemon.num}`;
     container.appendChild(pokemonNameCont);
     pokemonNameCont.appendChild(number);
 
-    let image = document.createElement("img");
+    const image = document.createElement("img");
     image.src= `${pokemon.img}`;
     container.appendChild(image);
 
-    let type =document.createElement("span");
+    const type =document.createElement("span");
     type.innerHTML =`${pokemon.type}`;
     container.appendChild(pokemonTypeCount);
     pokemonTypeCount.appendChild(type);
@@ -58,27 +91,19 @@ function pokemonCard(pokemon) {
     image.setAttribute("class", "pokemonImage");
     pokemonTypeCount.setAttribute("class", "pokemonTypeStyle");
 
-    
+    //Evento con el cual se invoca función para crear el template
     container.addEventListener('click', function () {pokemonInfo(pokemon)});
     return container;
-};
+}
 
-
-function printPokemons (pokemonGroup) {
-    pokemonGroup.forEach(pokemon => {
-        root.appendChild(pokemonCard(pokemon));
-    });
-
-};
-    
+  //Función con la cual se llama la data para crear el template  
 function pokemonInfo (pokemon) {
-
     root.style.display = 'none';
-    let infoCard = document.querySelector("#infoCard"); 
+    const infoCard = document.querySelector("#infoCard"); 
     let evolution;
     let preEvolution;
-    
-    
+        
+    //Implementación del método array.map para invocar y guardar las evoluciones en la data
     if (pokemon.next_evolution) {
         evolution = pokemon.next_evolution.map(pokemonEvo => 
             pokemonEvo.name)
@@ -91,14 +116,10 @@ function pokemonInfo (pokemon) {
     }   
     else{ preEvolution = "None"}
 
-
-    console.log(evolution);
-    console.log(preEvolution);
-
-
-    infoCard.innerHTML=
-    `<div class= "containerInfoCard">
-        <div class= "close" id= "closed">X</div>
+//Generación del Template con el método innnerHTML
+    infoCard.innerHTML =
+    `<div class= "containerInfoCard" id=containInfocard>
+        <button class= "close" id= "closed">X</button>
         <div class="template_nameId">
             <div class="tempName"><h2>${pokemon.name}</h2></div>
             <div class="tempNum"><h3>Num. ${pokemon.num}</h3></div>
@@ -124,8 +145,8 @@ function pokemonInfo (pokemon) {
                     <p><span>${pokemon.multipliers}</span></p>
                 </div>
                 <div class="weaknesses">
-                    <h2>Weaknesses:</h2>
-                    <p><span>${pokemon.weaknesses}</span></p>
+                    <h2 class="titleWeaknesses">Weaknesses:</h2>
+                    <p>${pokemon.weaknesses}</p>
                 </div>
             </div>    
         </div>
@@ -139,12 +160,19 @@ function pokemonInfo (pokemon) {
             </div>
         </div>
     </div>`
-};
 
+    //Implementación de la función closeTemp para cerrar el template 
+    //y mostrar nuevamante todas las tarjetas
+    const close = document.querySelector("#closed");
+    const containInfocard = document.querySelector("#containInfocard");
 
+    close.addEventListener("click", closeTemp);
+
+    function closeTemp(){
+        containInfocard.classList.toggle("closeTemplate");
+        root.style.display = 'flex';
+    }
+}
+
+//Invocaión de la función que imprime todas las tarjetas en la interfaz
 printPokemons(pokeDex);
-
-   
-
-
-

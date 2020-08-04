@@ -860,7 +860,7 @@ export default {
     ],
     "prev_evolution": [{
       "num": "029",
-      "name": "Nidoran(Female)"
+      "name": "Nidoran"
     }],
     "next_evolution": [{
       "num": "031",
