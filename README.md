@@ -74,7 +74,7 @@ Visualizacion tamaño Escritotio
 <p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/Visual%20Desktop%20v1.jpeg"  height="400" width="1000"> </p>
 
 Visualizacion tamaño Móvil
-<p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/prototype%20movil%20v1.1.jpg"  height="450" width="950"> </p>
+<p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/prototype%20movil%20v1.1.jpg"  height="400" width="950"> </p>
 
 Luego de estas iteraciones recibimos feedback para ajustar algunas de las opciones de busqueda y de la visual que tendria el usuario.
 
