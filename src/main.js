@@ -4,7 +4,7 @@ import data from './data/pokemon/pokemon.js';
 import { searchPokemon, orderPokeData, filterPokeTypes, filterPokeWeakness } from './data.js';
 
 
-// Llamando elementos del DOM
+//Llamando elementos del DOM
 const pokeDex = data.pokemon;
 const root = document.querySelector("#root");
 const mensaje = document.querySelector("#mensaje");
@@ -14,7 +14,7 @@ const descend = document.querySelector("#descend");
 const subBtnTypes = document.querySelector("#subBtnTypes");
 const subBtnWeak = document.querySelector("#subBtnWeak");
 
-// Invocando la función searchPokemon para filtrar por nombre y número
+//Invocando la función searchPokemon para filtrar por nombre y número
 inputSearch.addEventListener("keyup", (event) => {
     const inputValue = event.target.value;
     const searchPokeInfo = searchPokemon(pokeDex, inputValue)
@@ -26,7 +26,8 @@ inputSearch.addEventListener("keyup", (event) => {
     mensaje.innerHTML = "";
     }
 });
-// función que imprime todas las tarjetas en la interfaz
+
+//Función que imprime todas las tarjetas en la interfaz
 function printPokemons (pokemonGroup) {
     root.innerHTML = ""
     pokemonGroup.forEach(pokemon => {
@@ -34,7 +35,7 @@ function printPokemons (pokemonGroup) {
     });
 }
 
-// invocación de la función orderPokeData 
+//Invocación de la función orderPokeData 
 ascend.addEventListener("click",()=>{ 
     const order = orderPokeData(pokeDex,ascend.dataset.value);
     printPokemons(order);  
@@ -45,22 +46,21 @@ descend.addEventListener("click",()=>{
     printPokemons(order);  
 })
 
-//invocancion de la funcion filtrar por tipo
+//Invocancion de la funcion filtrar por tipo
 subBtnTypes.addEventListener("change", ()=>{
     const selectValue = subBtnTypes.value;
     const filterTypes = filterPokeTypes(pokeDex, selectValue);
     printPokemons(filterTypes);
 })
 
-//invocación de la funcion filtrar por debilidad
+//Invocación de la funcion filtrar por debilidad
 subBtnWeak.addEventListener("change", ()=>{
     const selectValue = subBtnWeak.value;
     const filterWeakness = filterPokeWeakness(pokeDex, selectValue);
     printPokemons(filterWeakness);
 })
 
-
-//llamando y guardando la data en nodos creados(tarjeta) para interacción del DOM funcion pokemonCard
+//llamando y guardando la data en nodos creados (tarjeta) para interacción del DOM función pokemonCard
 function pokemonCard(pokemon) {
     const container = document.createElement("div");
     const pokemonNameCont = document.createElement("div");
@@ -96,14 +96,14 @@ function pokemonCard(pokemon) {
     return container;
 }
 
-  // Función con la cual se llama la data para crear el template  
+  //Función con la cual se llama la data para crear el template  
 function pokemonInfo (pokemon) {
     root.style.display = 'none';
     const infoCard = document.querySelector("#infoCard"); 
     let evolution;
     let preEvolution;
         
-    // Implementación del método array.map para invocar y guardar  las evoluciones en la data
+    //Implementación del método array.map para invocar y guardar las evoluciones en la data
     if (pokemon.next_evolution) {
         evolution = pokemon.next_evolution.map(pokemonEvo => 
             pokemonEvo.name)
@@ -161,8 +161,8 @@ function pokemonInfo (pokemon) {
         </div>
     </div>`
 
-// Implementación de la función closeTemp para cerrar el template 
-// y mostrar nuevamante todas las tarjetas
+    //Implementación de la función closeTemp para cerrar el template 
+    //y mostrar nuevamante todas las tarjetas
     const close = document.querySelector("#closed");
     const containInfocard = document.querySelector("#containInfocard");
 

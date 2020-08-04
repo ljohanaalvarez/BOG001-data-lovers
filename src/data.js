@@ -1,4 +1,3 @@
-//import pokemon from "./data/pokemon/pokemon.js";
 
 // Función para filtrar la data por nombre y número (searchPoke: valor del imput)
 export const  searchPokemon = (pokemonData, searchPoke) => {
@@ -54,29 +53,19 @@ export const filterPokeWeakness = (pokemonData, weakValue) => {
 }
 
 
-
-/*export const filterPokeTypes = (pokemonData, typeValue) => {
-  console.log(pokemonData);
-  return pokemonData.filter(pokemon => pokemon.type === typeValue);
-}*/
-
-
-
-
-
-//export default function searchPokemon(searchPoke) {  
-//      let searchPokeName;
-//      let searchPokeId;
-//      if (isNaN(inputSearch.value)) { 
-//         searchPokeName = searchPoke.find(pokemon => 
-//         pokemon.name.toLowerCase() === inputSearch.value.toLowerCase());       
-//         return searchPokeName;
-//        }
-//        else{
-//              searchPokeId = searchPoke.find(pokemon => pokemon.id === parseInt(inputSearch.value));         
-//              return searchPokeId;
-//         } 
-//     }
+//Función para filtrar con el metodo find
+/*export default function searchPokemon(searchPoke) {  
+    let searchPokeName;
+    let searchPokeId;
+    if (isNaN(inputSearch.value)) { 
+      searchPokeName = searchPoke.find(pokemon => 
+        pokemon.name.toLowerCase() === inputSearch.value.toLowerCase());       
+        return searchPokeName;
+    } else{
+        searchPokeId = searchPoke.find(pokemon => pokemon.id === parseInt(inputSearch.value));         
+          return searchPokeId;
+      } 
+  }*/
 
 
      
