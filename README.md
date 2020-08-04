@@ -94,7 +94,7 @@ Prototipo de alta fidelidad para móvil.
 <p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/prototype%20figma%20movil.jpg" height="300 width="400"> </p>
 
 Paleta de colores.
-<p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/palette%20color.jpg"> </p>
+<p align="center"> <img src= "https://github.com/MarGo-20/BOG001-data-lovers/blob/master/src/images/palette%20color.jpg" height="150 width="700"> </p>
 Para el desarrollo de este prototipo tuvimos encuenta una paleta de colores frios Vs calidos para generar contraste con los tonos frios, acento con los tonos calidos e implementación de tonos neutros para dar balance. Teniendo en cuenta la jerarquía del mensaje y el contenido en general. 
 
 
