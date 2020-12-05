@@ -3,7 +3,7 @@ import data from '../src/data/pokemon/pokemon.js';
 import {searchPokemon, orderPokeData, filterPokeTypes, filterPokeWeakness} from '../src/data.js';
 
   
-  describe('dataFunctions.searchPokemon', () => {
+  describe('searchPokemon', () => {
     it('deberia ser una función', () => {
       expect(typeof searchPokemon).toBe('function');
     });
@@ -135,7 +135,7 @@ import {searchPokemon, orderPokeData, filterPokeTypes, filterPokeWeakness} from 
   });
 
 
-  describe('dataFunctions.searchPokemon', () => {
+  describe('searchPokemon', () => {
     it('deberia ser una función', () => {
       expect(typeof searchPokemon).toBe('function');
     });
